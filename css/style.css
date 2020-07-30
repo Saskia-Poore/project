@@ -24,6 +24,14 @@ footer {
     border-bottom: 2px solid transparent;
     display: inline-block;
     margin: 1rem;
+    background: red;
+    color: white;
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+}
+
+.nav_bar li a:hover {
+    background-color: blue;
 }
 .nav_bar li:last-child a:hover {
     border-bottom: 2px solid green;
