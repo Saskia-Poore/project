@@ -1,10 +1,13 @@
 body {
-    background-color: white;
+    background-color: darkgrey;
+    /* background-image: url("pexels-dids-1382902.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat; */
 }
 
 header,
 footer {
-    border: 1px solid black;
+    font-family: Verdana;
     padding: 20px;
     text-align: center;
 }
@@ -15,28 +18,64 @@ footer {
 }
 .nav_bar ul {
     list-style-type: none;
+    font-family: arial;
     display: flex;
     justify-content: center;
 }
 .nav_bar li a,
 .nav_bar li:last-child a {
-    border-top: 2px solid transparent;
     border-bottom: 2px solid transparent;
     display: inline-block;
-    margin: 1rem;
-    background: red;
-    color: white;
-    padding: 0.5rem 1rem;
+    color: black;
+    padding: 1rem 3rem;
     text-decoration: none;
 }
 
 .nav_bar li a:hover {
-    background-color: blue;
+    background-color: lightgray;
 }
-.nav_bar li:last-child a:hover {
+/*.nav_bar li:last-child a:hover {
     border-bottom: 2px solid green;
+} */
+
+h2 {
+    margin: 2rem;
+}
+
+img {
+    max-width: 100%;
 }
 
 .content {
-    margin: 20px;
+    margin: 3rem;
+}
+
+.form-wrapper {
+    margin: 2rem auto;
+    max-width: 700px;
+    font-family: arial;
+    text-align: right;
+}
+
+.form-row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+    align-items: center ;
+    text-align: right;
+}
+
+.form-row input {
+    border: 1px solid #999;
+    border-radius: 4px;
+    padding: .5rem;
+    width: 80%;
+	align-items: left;
+}
+
+.button {
+    margin: auto;
+    background-color: lightgrey;
+    color: black;
+    font-size: 1rem;
 }
