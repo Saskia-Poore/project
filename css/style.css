@@ -16,11 +16,14 @@ footer {
 .nav_bar ul {
     list-style-type: none;
     display: flex;
+    justify-content: center;
 }
 .nav_bar li a,
 .nav_bar li:last-child a {
     border-top: 2px solid transparent;
     border-bottom: 2px solid transparent;
+    display: inline-block;
+    margin: 1rem;
 }
 .nav_bar li:last-child a:hover {
     border-bottom: 2px solid green;
