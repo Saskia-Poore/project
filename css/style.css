@@ -15,7 +15,7 @@ footer {
 }
 .nav_bar ul {
     list-style-type: none;
-    flex-direction: row;
+    display: flex;
 }
 .nav_bar li a,
 .nav_bar li:last-child a {
