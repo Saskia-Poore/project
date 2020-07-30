@@ -9,6 +9,23 @@ footer {
     text-align: center;
 }
 
+.nav_bar {
+    border-top: 1px solid grey;
+    border-bottom: 1px solid grey;
+}
+.nav_bar ul {
+    list-style-type: none;
+    flex-direction: row;
+}
+.nav_bar li a,
+.nav_bar li:last-child a {
+    border-top: 2px solid transparent;
+    border-bottom: 2px solid transparent;
+}
+.nav_bar li:last-child a:hover {
+    border-bottom: 2px solid green;
+}
+
 .content {
     margin: 20px;
 }
